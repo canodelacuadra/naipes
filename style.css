@@ -1,0 +1,43 @@
+ .tapete{
+        width:80%;
+        margin:0 auto;
+        background-color:darkgreen;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:  wrap;
+        justify-content:center;
+    }
+    .carta{
+        width:120px;
+        height:180px;
+        border:solid 1px #333;
+        border-radius:16px;
+        background-color:whitesmoke;
+        margin:1em 0.5em;
+        font-size:1em;
+        color:red;
+        position:relative;
+    }
+.numcart{
+    position:absolute;
+color:black; 
+    font-size:1em;
+     top:0;
+    right:0;
+}
+.palo{
+      position:absolute;
+    color:green;
+    font-size:2em;
+    bottom:0;
+    right:0;
+    
+    
+}
+.numero{
+      position:absolute;
+    color:pink;1.5em;
+     bottom:0;
+    left:0;
+    
+}
