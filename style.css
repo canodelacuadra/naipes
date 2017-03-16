@@ -30,3 +30,6 @@
         color:black;
         position:relative;
     }
+.corazones, .diamantes{
+    color:red;
+}
