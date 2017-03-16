@@ -1,4 +1,17 @@
- .tapete{
+ @font-face {
+    font-family: 'playing_cardsregular';
+    src: url('fonts/cards-webfont.woff2') format('woff2'),
+         url('fonts/cards-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.fuente{
+  font-family: 'playing_cardsregular';  
+    font-size:8em;
+}
+
+.tapete{
         width:80%;
         margin:0 auto;
         background-color:darkgreen;
@@ -8,36 +21,12 @@
         justify-content:center;
     }
     .carta{
-        width:120px;
-        height:180px;
+   padding-top:1em;
         border:solid 1px #333;
         border-radius:16px;
         background-color:whitesmoke;
         margin:1em 0.5em;
         font-size:1em;
-        color:red;
+        color:black;
         position:relative;
     }
-.numcart{
-    position:absolute;
-color:black; 
-    font-size:1em;
-     top:0;
-    right:0;
-}
-.palo{
-      position:absolute;
-    color:green;
-    font-size:2em;
-    bottom:0;
-    right:0;
-    
-    
-}
-.numero{
-      position:absolute;
-    color:pink;1.5em;
-     bottom:0;
-    left:0;
-    
-}
